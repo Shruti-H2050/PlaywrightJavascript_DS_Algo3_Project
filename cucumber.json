@@ -1,0 +1,15 @@
+{
+  
+    "default": {
+      "formatOptions": {
+        "snippetInterface": "async-await"
+      },
+      "paths": ["tests/features/Search.feature"],
+      "require": ["tests/steps/search.js","tests/pages/SearchPom.js","tests/hooks/*.js"],
+      "dryrun":false,
+      "parallel": 10,
+      "format": ["html:reports/cucumber-report.html"]
+      
+    }
+  
+}
